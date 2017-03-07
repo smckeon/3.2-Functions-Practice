@@ -125,7 +125,7 @@ function reverse(string){
     return reversedText;
 }
 
-console.assert(reverse("This is the test.")===.tset eht si sihT);
+console.assert(reverse("This is the test.")===('tset eht si sihT'));
 console.log(reverse("This is the test."));
 
 // ---------------------
@@ -193,6 +193,3 @@ function charFreq(string){
 
 console.log(charFreq("abbabcbdbabdbdbabababcbcbab"));
 console.assert(charFreq("abbabcbdbabdbdbabababcbcbab") == {a: 7, b: 14, c: 3, d: 3});
-
-
-}
